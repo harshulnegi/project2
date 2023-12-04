@@ -1,0 +1,41 @@
+body {
+    background-color: #faebfb;
+}
+
+.top-header { 
+	width: 100%; 
+	background-image: url(bga.png); 
+	background-size: cover; 
+	background-position: center; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+} 
+ 
+.top-header > h1 { 
+	background-color: rgba(0,0,0,0.3); 
+	padding: 4em 1em; 
+	font-family: sans-serif; 
+} 
+
+.box {
+    margin-top: 10%;
+    font-family: sans-serif;
+    top: 10%;
+    margin-left: 33%;
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #301534;
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.2);
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
