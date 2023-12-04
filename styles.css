@@ -7,7 +7,7 @@ body {
 	background-image: url(bga.png); 
 	background-size: cover; 
 	background-position: center; 
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
